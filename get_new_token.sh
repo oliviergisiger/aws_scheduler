@@ -2,7 +2,7 @@
 
 newExpirationTime=$(($(date +%s) + 84600))
 
-curl 'https://labs.vocareum.com/util/vcput.php?a=getaws&type=1&stepid=1569028&version=0&v=0&vockey=rUvDz4fZExx3whMjpx7S%2Bg%3D%3D' \
+curl <URL> \
   -H 'authority: labs.vocareum.com' \
   -H 'accept: */*' \
   -H 'accept-language: de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7' \
